@@ -33,7 +33,36 @@
       <section id="main_content" class="inner">
         <p>Rust signatur</p>
 
-<p><a href="test.html">Test</a></p>
+<p>
+    <a href='
+    javascript:(
+        function(){
+            if( window.location.hostname != "rust.idi.ntnu.no"){
+                alert("Denne appen fungerer kun på http://rust.idi.ntnu.no/");
+                return false;
+            }
+            else{
+                var name = prompt("Navn:");
+                var mt = document.getElementsByName("message-text")[0];
+                mt.value += "\n\nOm det skulle være noe mer/annet du håper vi kan hjelpe deg med, må du bare \nsende epost eller stikke innom kontoret!\n\n--\nMed vennlig hilsen,\n" + name + ",\nGurutjenesten\n\nKontor: IT-Vest 164 \nTlf: +47 735 97 685\nÅpningstider;\nMan+Tor: 12-16\nTir+Ons+Fre: 11-15";
+            }
+        }
+    )()'>Norsk</a><br>
+    <a href='
+    javascript:(
+        function(){
+            if( window.location.hostname != "rust.idi.ntnu.no"){
+                alert("Denne appen fungerer kun på http://rust.idi.ntnu.no/");
+                return false;
+            }
+            else{
+                var name = prompt("Navn:");
+                var mt = document.getElementsByName("message-text")[0];
+                mt.value += "\n\nIf there`s anything else you´d like (or hope!) that we can help you with, feel\nfree to send us an email or drop by our office!\n\n--\nKind Regards,\n" + name + ",\nGurutjenesten\n\nOffice: IT-Vest 164 \nTlf: +47 735 97 685\nOpening hours;\nMon+Thu: 12-16\nTue+Wed+Fri: 11-15";
+            }
+        }
+    )()'>Engelsk</a>
+</p>
       </section>
     </div>
 
